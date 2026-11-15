@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Routing en switching | Seyit Ali Yoncalik</title>
+    <meta name="description" content="Ontdek het project van Seyit Ali Yoncalik over routing en switching. Leer meer over routers, switches, VLAN's en IP-adressen.">
+
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <a href="#inhoud" class="sr-only focus:not-sr-only focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+        Ga naar de inhoud
+    </a>
+
+    <div class="max-w-5xl mx-auto px-4">
+
+        <header class="py-4 border-b border-gray-200">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="text-2xl font-bold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">SAY</a>
+
+                <input type="checkbox" id="menu-toggle" class="peer sr-only">
+
+                <label for="menu-toggle" class="lg:hidden text-2xl cursor-pointer">
+                    ☰
+                </label>
+
+                <nav class="hidden peer-checked:block lg:block">
+                    <ul class="flex flex-col lg:flex-row gap-2">
+                        <li><a href="index.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Home</a></li>
+                        <li><a href="portfolio.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Portfolio</a></li>
+                        <li><a href="project.html" aria-current="page" class="block px-3 py-2 rounded-lg bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Projecten</a></li>
+                        <li><a href="contact.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 py-4">
+
+            <main id="inhoud" class="lg:col-span-2 border border-gray-300 rounded-lg p-6">
+                <a href="portfolio.html" class="underline hover:text-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">← Terug naar overzicht</a>
+
+                <h1 class="text-3xl font-bold mt-3 mb-3">Routing en switching</h1>
+
+                <p class="mb-4">
+                    Bij dit onderwerp wil ik leren hoe computers en andere
+                    toestellen met elkaar communiceren binnen een netwerk.
+                    Ik wil ontdekken hoe routers, switches en VLAN's samenwerken
+                    en hoe je een netwerk logisch kunt indelen.
+                </p>
+
+                <img src="images/routing-switching.jpg"
+                     alt="Netwerkapparatuur met routers en switches"
+                     width="800"
+                     height="450"
+                     class="w-full aspect-video object-cover rounded-lg mb-4">
+
+                <h2 class="text-xl font-bold mb-2">Wat wil ik leren?</h2>
+                <ul class="list-disc pl-6 mb-4">
+                    <li>Het verschil tussen routers en switches begrijpen.</li>
+                    <li>Leren hoe VLAN's een netwerk opdelen.</li>
+                    <li>Oefenen met IP-adressen en subnetwerken.</li>
+                </ul>
+
+                <h2 class="text-xl font-bold mb-2">Gebruikte technologieën</h2>
+                <ul class="flex flex-wrap gap-2">
+                    <li class="bg-gray-200 rounded-lg px-3 py-2">Routing</li>
+                    <li class="bg-gray-200 rounded-lg px-3 py-2">Switching</li>
+                    <li class="bg-gray-200 rounded-lg px-3 py-2">VLAN</li>
+                    <li class="bg-gray-200 rounded-lg px-3 py-2">IP-adressen</li>
+                </ul>
+            </main>
+
+            <aside class="border border-gray-300 rounded-lg p-6">
+                <h2 class="text-xl font-bold mb-4">Over mij</h2>
+                <p class="mb-4">
+                    Ik studeer systeem- en netwerkbeheer en wil me verder
+                    verdiepen in netwerken en cybersecurity.
+                </p>
+            </aside>
+
+        </div>
+
+        <footer class="flex flex-col md:flex-row justify-center items-center gap-3 py-4 bg-gray-700 text-white">
+            <p>Seyit Ali Yoncalik</p>
+            <a href="mailto:ali.yoncalik@gmail.com" class="hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">ali.yoncalik@gmail.com</a>
+            <p>2026</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

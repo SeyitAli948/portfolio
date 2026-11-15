@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | SAY</title>
+    <meta name="description" content="Ik ben Seyit Ali Yoncalik, student IT. Ontdek mijn portfolio, projecten en interesses in technologie.">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <a href="#inhoud" class="sr-only focus:not-sr-only focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+        Ga naar de inhoud
+    </a>
+
+    <div class="max-w-5xl mx-auto px-4">
+
+        <header class="py-4 border-b border-gray-200">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="text-2xl font-bold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">SAY</a>
+
+                <input type="checkbox" id="menu-toggle" class="peer sr-only">
+
+                <label for="menu-toggle" class="lg:hidden text-2xl cursor-pointer">
+                    ☰
+                </label>
+
+                <nav class="hidden peer-checked:block lg:block">
+                    <ul class="flex flex-col lg:flex-row gap-2">
+                        <li><a href="index.html" aria-current="page" class="block px-3 py-2 rounded-lg bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Home</a></li>
+                        <li><a href="portfolio.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Portfolio</a></li>
+                        <li><a href="project.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Projecten</a></li>
+                        <li><a href="contact.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 py-4">
+
+            <main id="inhoud" class="lg:col-span-2 border border-gray-300 rounded-lg p-6">
+                <p class="text-sm uppercase tracking-wide">Welkom op mijn website</p>
+                <h1 class="text-3xl font-bold mt-2 mb-4">Hallo, ik ben SAY</h1>
+
+                <p class="mb-4">
+                    Ik ben een student IT met een passie voor technologie,
+                    webontwikkeling en het oplossen van problemen.
+                    Op deze website vind je mijn projecten, mijn verhaal
+                    en hoe je contact met me kan opnemen.
+                </p>
+
+                <a href="portfolio.html" class="inline-block bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                    Bekijk mijn projecten →
+                </a>
+            </main>
+
+            <aside class="border border-gray-300 rounded-lg p-6">
+                <h2 class="text-xl font-bold mb-4">Over mij</h2>
+                <p class="mb-4">
+                    Ik studeer systeem- en netwerkbeheer en cybersecurity.
+                    Ik ben geïnteresseerd in netwerken, Linux, programmeren
+                    en digitale beveiliging.
+                </p>
+            </aside>
+
+        </div>
+
+        <footer class="flex flex-col md:flex-row justify-center items-center gap-3 py-4 bg-gray-700 text-white">
+            <p>SAY</p>
+            <a href="mailto:ali.yoncalik@gmail.com" class="hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">ali.yoncalik@gmail.com</a>
+            <p>2026</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

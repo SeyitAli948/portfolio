@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Seyit Ali Yoncalik</title>
+    <meta name="description" content="Neem contact op met Seyit Ali Yoncalik, student systeem- en netwerkbeheer en cybersecurity. Bekijk de contactgegevens of stuur een bericht.">
+
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <a href="#inhoud" class="sr-only focus:not-sr-only focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+        Ga naar de inhoud
+    </a>
+
+    <div class="max-w-5xl mx-auto px-4">
+
+        <header class="py-4 border-b border-gray-200">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="text-2xl font-bold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">SAY</a>
+
+                <input type="checkbox" id="menu-toggle" class="peer sr-only">
+
+                <label for="menu-toggle" class="lg:hidden text-2xl cursor-pointer">
+                    ☰
+                </label>
+
+                <nav class="hidden peer-checked:block lg:block">
+                    <ul class="flex flex-col lg:flex-row gap-2">
+                        <li><a href="index.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Home</a></li>
+                        <li><a href="portfolio.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Portfolio</a></li>
+                        <li><a href="project.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Projecten</a></li>
+                        <li><a href="contact.html" aria-current="page" class="block px-3 py-2 rounded-lg bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 py-4">
+
+            <main id="inhoud" class="lg:col-span-2 border border-gray-300 rounded-lg p-6">
+
+                <h1 class="text-3xl font-bold mb-3">Contact met Seyit Ali Yoncalik</h1>
+
+                <p class="mb-4">
+                    Heb je een vraag, wil je samenwerken of gewoon iets laten weten?
+                    Vul het formulier hieronder in.
+                </p>
+
+                <p class="mb-4 text-sm text-gray-600">
+                    Velden met een * zijn verplicht.
+                </p>
+
+                <form action="#" method="get" class="max-w-2xl">
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+                        <div>
+                            <label for="naam" class="block font-medium mb-1">
+                                Naam <span aria-hidden="true">*</span>
+                            </label>
+
+                            <input type="text" id="naam" name="naam" autocomplete="name" required
+                                   class="w-full rounded-lg border border-gray-400 bg-white px-3 py-2 text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block font-medium mb-1">
+                                E-mailadres <span aria-hidden="true">*</span>
+                            </label>
+
+                            <input type="email" id="email" name="email" autocomplete="email" required
+                                   aria-describedby="email-hulp email-fout"
+                                   class="peer w-full rounded-lg border border-gray-400 bg-white px-3 py-2 text-gray-900 user-invalid:border-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+
+                            <p id="email-hulp" class="mt-1 text-sm text-gray-600">
+                                Vul een geldig e-mailadres in, bijvoorbeeld naam@voorbeeld.be.
+                            </p>
+
+                            <p id="email-fout" class="hidden peer-user-invalid:block mt-1 text-sm text-gray-900">
+                                Vul een geldig e-mailadres in met een @ en een domeinnaam.
+                            </p>
+                        </div>
+
+                        <div class="md:col-span-2">
+                            <label for="bericht" class="block font-medium mb-1">
+                                Bericht <span aria-hidden="true">*</span>
+                            </label>
+
+                            <textarea id="bericht" name="bericht" rows="5" required
+                                      class="w-full rounded-lg border border-gray-400 bg-white px-3 py-2 text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"></textarea>
+                        </div>
+
+                    </div>
+
+                    <button type="submit" class="mt-4 rounded-lg bg-gray-800 px-5 py-2 font-semibold text-white hover:bg-gray-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                        Bericht versturen
+                    </button>
+
+                </form>
+
+                <p class="mt-4 text-sm text-gray-600">
+                    Je gegevens worden alleen gebruikt om op je bericht te antwoorden.
+                </p>
+
+            </main>
+
+            <aside class="border border-gray-300 rounded-lg p-6">
+                <h2 class="text-xl font-bold mb-4">Contactgegevens</h2>
+
+                <p class="mb-3">
+                    <strong>E-mail:</strong><br>
+                    <a href="mailto:ali.yoncalik@gmail.com" class="underline hover:text-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">ali.yoncalik@gmail.com</a>
+                </p>
+
+                <p class="mb-3">
+                    <strong>Telefoon:</strong><br>
+                    123456789
+                </p>
+
+                <p class="mb-4">
+                    <strong>Locatie:</strong><br>
+                    België
+                </p>
+            </aside>
+
+        </div>
+
+        <footer class="flex flex-col md:flex-row justify-center items-center gap-3 py-4 bg-gray-700 text-white">
+            <p>Seyit Ali Yoncalik</p>
+            <a href="mailto:ali.yoncalik@gmail.com" class="hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">ali.yoncalik@gmail.com</a>
+            <p>2026</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

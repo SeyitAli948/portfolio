@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Seyit Ali Yoncalik</title>
+    <meta name="description" content="Bekijk de projecten van Seyit Ali Yoncalik en ontdek zijn interesses in netwerken, Linux, Python en cybersecurity.">
+
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <a href="#inhoud" class="sr-only focus:not-sr-only focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+        Ga naar de inhoud
+    </a>
+
+    <div class="max-w-5xl mx-auto px-4">
+
+        <header class="py-4 border-b border-gray-200">
+            <div class="flex items-center justify-between">
+                <a href="index.html" class="text-2xl font-bold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">SAY</a>
+
+                <input type="checkbox" id="menu-toggle" class="peer sr-only">
+
+                <label for="menu-toggle" class="lg:hidden text-2xl cursor-pointer">
+                    ☰
+                </label>
+
+                <nav class="hidden peer-checked:block lg:block">
+                    <ul class="flex flex-col lg:flex-row gap-2">
+                        <li><a href="index.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Home</a></li>
+                        <li><a href="portfolio.html" aria-current="page" class="block px-3 py-2 rounded-lg bg-gray-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Portfolio</a></li>
+                        <li><a href="project.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Projecten</a></li>
+                        <li><a href="contact.html" class="block px-3 py-2 rounded-lg hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 py-4">
+
+            <main id="inhoud" class="lg:col-span-2 border border-gray-300 rounded-lg p-6">
+                <h1 class="text-3xl font-bold mb-3">Mijn projecten</h1>
+
+                <p class="mb-2">
+                    Hieronder vind je een overzicht van zes onderwerpen
+                    die ik momenteel aan het leren ben en verder wil uitwerken.
+                </p>
+                <p class="mb-4">Klik op een project voor meer details.</p>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                    <article class="border border-gray-300 rounded-lg overflow-hidden">
+                        <img src="images/routing-switching.jpg" alt="Netwerkapparatuur voor routing en switching" width="400" height="225" class="w-full aspect-video object-cover">
+                        <div class="p-3">
+                            <h2 class="font-bold">Routing en switching</h2>
+                            <p class="text-sm mt-1">Ik wil leren hoe netwerken met routers, switches en VLAN's werken.</p>
+                            <a href="project.html" class="inline-block mt-2 underline hover:text-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Bekijk de details over routing en switching</a>
+                        </div>
+                    </article>
+
+                    <article class="border border-gray-300 rounded-lg overflow-hidden">
+                        <img src="images/linux.jpg" alt="Linux-terminal op een computerscherm" width="400" height="225" class="w-full aspect-video object-cover">
+                        <div class="p-3">
+                            <h2 class="font-bold">Linux-serverbeheer</h2>
+                            <p class="text-sm mt-1">Ik wil leren werken met Linux, gebruikers en SSH.</p>
+                            <a href="project.html" class="inline-block mt-2 underline hover:text-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Bekijk de details over Linux-serverbeheer</a>
+                        </div>
+                    </article>
+
+                    <article class="border border-gray-300 rounded-lg overflow-hidden">
+                        <img src="images/python.jpg" alt="Python-code op een computerscherm" width="400" height="225" class="w-full aspect-video object-cover">
+                        <div class="p-3">
+                            <h2 class="font-bold">Python-automatisering</h2>
+                            <p class="text-sm mt-1">Ik wil Python leren gebruiken om taken te automatiseren.</p>
+                            <a href="project.html" class="inline-block mt-2 underline hover:text-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Bekijk de details over Python-automatisering</a>
+                        </div>
+                    </article>
+
+                    <article class="border border-gray-300 rounded-lg overflow-hidden">
+                        <img src="images/firewall.jpg" alt="Schematische voorstelling van een firewall" width="400" height="225" class="w-full aspect-video object-cover">
+                        <div class="p-3">
+                            <h2 class="font-bold">Firewall en netwerkbeveiliging</h2>
+                            <p class="text-sm mt-1">Ik wil leren hoe firewalls netwerkverkeer beveiligen.</p>
+                            <a href="project.html" class="inline-block mt-2 underline hover:text-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Bekijk de details over firewall en netwerkbeveiliging</a>
+                        </div>
+                    </article>
+
+                    <article class="border border-gray-300 rounded-lg overflow-hidden">
+                        <img src="images/ids-ips.jpg" alt="Voorstelling van netwerkbewaking en beveiliging" width="400" height="225" class="w-full aspect-video object-cover">
+                        <div class="p-3">
+                            <h2 class="font-bold">IDS en IPS</h2>
+                            <p class="text-sm mt-1">Ik wil leren hoe verdachte netwerkactiviteit wordt opgespoord en tegengehouden.</p>
+                            <a href="project.html" class="inline-block mt-2 underline hover:text-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Bekijk de details over IDS en IPS</a>
+                        </div>
+                    </article>
+
+                    <article class="border border-gray-300 rounded-lg overflow-hidden">
+                        <img src="images/siem.jpg" alt="Dashboard voor beveiligingsmeldingen en loganalyse" width="400" height="225" class="w-full aspect-video object-cover">
+                        <div class="p-3">
+                            <h2 class="font-bold">SIEM en loganalyse</h2>
+                            <p class="text-sm mt-1">Ik wil leren hoe ik logbestanden analyseer en incidenten herken.</p>
+                            <a href="project.html" class="inline-block mt-2 underline hover:text-gray-600 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">Bekijk de details over SIEM en loganalyse</a>
+                        </div>
+                    </article>
+
+                </div>
+            </main>
+
+            <aside class="border border-gray-300 rounded-lg p-6">
+                <h2 class="text-xl font-bold mb-4">Over mij</h2>
+                <p class="mb-4">
+                    Ik ben student systeem- en netwerkbeheer.
+                    Ik wil mijn kennis van netwerken en cybersecurity
+                    stap voor stap uitbreiden.
+                </p>
+            </aside>
+
+        </div>
+
+        <footer class="flex flex-col md:flex-row justify-center items-center gap-3 py-4 bg-gray-700 text-white">
+            <p>Seyit Ali Yoncalik</p>
+            <a href="mailto:ali.yoncalik@gmail.com" class="hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">ali.yoncalik@gmail.com</a>
+            <p>2026</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
